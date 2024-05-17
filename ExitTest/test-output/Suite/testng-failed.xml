@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tests.DownloadTest">
+        <methods>
+          <include name="downloadTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.DownloadTest -->
+      <class name="tests.BookFlightTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="bookFlightTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.BookFlightTest -->
+      <class name="tests.GroupCompanyTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="groupCompanyTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.GroupCompanyTest -->
+      <class name="tests.SignUpTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="signUpTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SignUpTest -->
+      <class name="tests.FilterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="bannerTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="filterTest"/>
+        </methods>
+      </class> <!-- tests.FilterTest -->
+      <class name="tests.SellerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="sellerTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.SellerTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.BannerTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="bannerTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.BannerTest -->
+      <class name="tests.WishlistTest">
+        <methods>
+          <include name="bannerTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.WishlistTest -->
+      <class name="tests.CustomerCareTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="customerCareTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.CustomerCareTest -->
+      <class name="tests.GroceryTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="groceryTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.GroceryTest -->
+      <class name="tests.NavigationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="navigationTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.NavigationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
